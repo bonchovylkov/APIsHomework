@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/styles.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div id="timer">0</div>
+    
+
+    <input id="start" value=" Start " onclick="start()" type="button" />
+    <input id="stop" value=" Stop " onclick="stop()" type="button" /><br />
+     <img id="closedBin" src="imgs/closed-trash.jpg" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="changeBin()" onmouseout="changeToCloseBin()" />
+    <div id="wrapper">
+        <div>
+           
+        </div>
+    </div>
+    <div id="scoreBoard"></div>
+    <script src="scripts/trash.js"></script>
+    <script src="scripts/storageObjects.js"></script>
+   
+</body>
+</html>
