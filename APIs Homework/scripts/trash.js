@@ -24,7 +24,7 @@ function createTrash(trashNumber) {
     var container = document.getElementById("wrapper");
     for (var i = 0; i < numberOfTrashOfKind; i++) {
         var trash = document.createElement("img");
-        trash.src = "../imgs/paper-" + trashNumber + ".jpg";
+        trash.src = "imgs/paper-" + trashNumber + ".jpg";
         setTheProperties(trash, i, trashNumber);
         container.appendChild(trash);
     }
